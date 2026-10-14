@@ -1,0 +1,42 @@
+[
+  {
+    "number": 1,
+    "label": "סקרן ושמח",
+    "control": "A natural boy aged 8, native Israeli Hebrew accent, warm curious cheerful child voice, clear pronunciation, natural conversational rhythm, moderate pace, friendly school science guide, not robotic, not an adult.",
+    "file": "voice-1.mp3",
+    "engine": "VoxCPM2",
+    "text": "שלום! אני דוקטור לב. בואו נצא למסע בתוך הלב, נגלה איך הדם זורם, ונראה מה עוזר ללב לפעום בקצב הנכון."
+  },
+  {
+    "number": 2,
+    "label": "רגוע וברור",
+    "control": "A natural boy aged 9, native Israeli Hebrew accent, calm gentle reassuring young child voice, clear articulation, relaxed conversational pace, soft warmth, not robotic, not an adult.",
+    "file": "voice-2.mp3",
+    "engine": "VoxCPM2",
+    "text": "שלום! אני דוקטור לב. בואו נצא למסע בתוך הלב, נגלה איך הדם זורם, ונראה מה עוזר ללב לפעום בקצב הנכון."
+  },
+  {
+    "number": 3,
+    "label": "נלהב והרפתקני",
+    "control": "A natural boy aged 7, native Israeli Hebrew accent, bright energetic playful curious child voice, expressive storyteller, friendly excitement, clear words, moderate pace, not robotic, not an adult.",
+    "file": "voice-3.mp3",
+    "engine": "VoxCPM2",
+    "text": "שלום! אני דוקטור לב. בואו נצא למסע בתוך הלב, נגלה איך הדם זורם, ונראה מה עוזר ללב לפעום בקצב הנכון."
+  },
+  {
+    "number": 4,
+    "label": "חם ומספר סיפורים",
+    "control": "A natural boy aged 8, native Israeli Hebrew accent, warm friendly child storyteller voice with natural expressive intonation, slightly mellow youthful tone, moderate pace, not robotic, not an adult.",
+    "file": "voice-4.mp3",
+    "engine": "VoxCPM2",
+    "text": "שלום! אני דוקטור לב. בואו נצא למסע בתוך הלב, נגלה איך הדם זורם, ונראה מה עוזר ללב לפעום בקצב הנכון."
+  },
+  {
+    "number": 5,
+    "label": "קליל וחייכני",
+    "control": "A natural boy aged 9, native Israeli Hebrew accent, clear light youthful child voice with a smiling friendly tone, lively conversational intonation, confident and curious, moderate pace, not robotic, not an adult.",
+    "file": "voice-5.mp3",
+    "engine": "VoxCPM2",
+    "text": "שלום! אני דוקטור לב. בואו נצא למסע בתוך הלב, נגלה איך הדם זורם, ונראה מה עוזר ללב לפעום בקצב הנכון."
+  }
+]
