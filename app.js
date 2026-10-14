@@ -45,6 +45,7 @@ function fit(){const r=host.getBoundingClientRect();renderer.setSize(r.width,r.h
 new ResizeObserver(fit).observe(host);fit();
 function material(c,options={}){return new THREE.MeshStandardMaterial({color:c,roughness:.4,metalness:.05,...options});}
 function ball(p,r,c,parent=overlay){let b=new THREE.Mesh(new THREE.SphereGeometry(r,software?10:24,software?8:16),material(c));b.position.copy(p);parent.add(b);return b;}
+function sphere(parent,x,y,z,sx,sy,sz,color){const m=new THREE.Mesh(new THREE.SphereGeometry(1,software?12:24,software?8:18),material(color));m.position.set(x,y,z);m.scale.set(sx,sy,sz);parent.add(m);return m;}
 function tube(points,r,c,parent=overlay){let curve=new THREE.CatmullRomCurve3(points.map(p=>p.clone()));let mesh=new THREE.Mesh(new THREE.TubeGeometry(curve,software?25:90,r,software?6:12,false),material(c));parent.add(mesh);return {curve,mesh};}
 function loadGeometry(data){const geo=new THREE.BufferGeometry();geo.setAttribute('position',new THREE.Float32BufferAttribute(data.vertices.flat(),3));geo.setIndex(data.faces.flat());const colors=data.colors.flatMap(c=>{let cl=new THREE.Color(`rgb(${c[0]},${c[1]},${c[2]})`);return [cl.r,cl.g,cl.b];});geo.setAttribute('color',new THREE.Float32BufferAttribute(colors,3));geo.computeVertexNormals();return new THREE.Mesh(geo,material('white',{vertexColors:true}));}
 let heartMesh=null,baseScale=1;
