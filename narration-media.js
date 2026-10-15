@@ -1,0 +1,12 @@
+import p0 from './narration-media-1.js';
+import p1 from './narration-media-2.js';
+import p2 from './narration-media-3.js';
+import p3 from './narration-media-4.js';
+import p4 from './narration-media-5.js';
+import p5 from './narration-media-6.js';
+import p6 from './narration-media-7.js';
+import p7 from './narration-media-8.js';
+import p8 from './narration-media-9.js';
+const encoded=[p0,p1,p2,p3,p4,p5,p6,p7,p8].join('');
+const raw=atob(encoded),bytes=new Uint8Array(raw.length);for(let i=0;i<raw.length;i++)bytes[i]=raw.charCodeAt(i);
+export const narrationAudioUrl=URL.createObjectURL(new Blob([bytes],{type:'audio/mpeg'}));
